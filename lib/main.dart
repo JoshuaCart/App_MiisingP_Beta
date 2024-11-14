@@ -1,13 +1,13 @@
-import 'package:encuentrame_app_beta/UI/missingP_main.dart';
+import 'package:encuentrame_app_beta/UI/reports_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
+  /*WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setEnabledSystemUIMode(
     SystemUiMode.manual,
     overlays: [SystemUiOverlay.top],
-  );
+  );*/
   runApp(const MyApp());
 }
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MissingPMain(),
+      home: ReportListPage(),
     );
   }
 }
